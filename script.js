@@ -94,7 +94,7 @@ function generateQuestions(rawQuestionContents,flag){
 
     var output = '';
     for(var i=0; i<numberOfQuestions; i++){
-        output = (i > 0) ? output + '\n' : output;
+        output = (i > 0) ? output + '\n\n' : output;
 
         var question = masterQuestionArr[getRandomInt(masterQuestionArr.length)].trim();
         while(question.startsWith('**')){

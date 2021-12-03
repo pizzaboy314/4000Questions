@@ -194,6 +194,15 @@ body > section > pre {
     display: none;
 }
 
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+
 
 #coverImg {
     display: block;
@@ -214,7 +223,7 @@ label {
     vertical-align: middle;
     font-size: 15px;
     margin: 0px 10px 0px 10px;
-    color: #FFF;
+    color: #000;
 }
 
 
